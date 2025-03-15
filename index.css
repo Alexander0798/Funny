@@ -3,6 +3,8 @@
 @import url(/blocs/offers.css);
 @import url(/blocs/footer.css);
 @import url(/blocs/swiper.css);
+@import url(/blocs/feedback.css);
+@import url(/blocs/gallery.css);
 
 @font-face {
   font-family: 'ComicSansMS';
@@ -49,7 +51,7 @@
 .root {
   padding: 0;
   margin: 0;
-
+  background-color: black;
 }
 
 :root {
@@ -58,6 +60,7 @@
   --swiper-pagination-bullet-inactive-color: #ffffff;
   --swiper-pagination-bullet-inactive-opacity: .3;
   --swiper-pagination-bullet-size: 16px;
+  --swiper-pagination-bullet-horizontal-gap: 5px;
 
 }
 

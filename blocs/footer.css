@@ -19,7 +19,8 @@
 .footer__list {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 0;
+  line-height: 1.2;
   font-size: 13px;
 
 }
@@ -38,10 +39,16 @@
 }
 
 .footer__nav-list {
+  background: white;
   display: flex;
   gap: 0 36px;
   font-size: 10px;
   min-height: 47.5px;
   align-items: center;
   justify-content: center;
+  line-height: 1;
+}
+
+.footer__nav-item {
+  line-height: 1;
 }

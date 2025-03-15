@@ -1,0 +1,43 @@
+.feedback {
+  color: white;
+}
+
+.feedback__title {
+  font-family: RightGroteskText-WideBold;
+  font-size: 36px;
+  margin: 175px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.feedback__swiper {
+  padding-bottom: 155px;
+  height: 400px;
+}
+
+.feedback__img {
+  border-radius: 20px;
+  width: 254px;
+  height: 254px;
+
+}
+
+.feedback__item {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0 29px;
+  width: 620px;
+}
+
+.feedback__name {
+  font-size: 24px;
+
+}
+
+.feedback__post {
+  font-size: 20px;
+}
+
+.feedback__description {
+  font-size: 18px;
+}

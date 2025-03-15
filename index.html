@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./index.css">
 
   <title>Document</title>
 </head>
@@ -47,22 +48,108 @@
         </div>
 
       </div>
-      <div class="wrapper">
-        <div class="swiper">
+      <div class="gallery">
+        <h2 class="gallery__title">Фотогалерея клуба</h2>
+        <div class="gallery__swiper swiper">
           <!-- Additional required wrapper -->
 
-          <ul class="swiper-wrapper card list">
+          <ul class="swiper-wrapper gallery__list list">
             <!-- Slides -->
 
-            <li class="swiper-slide card__item">
+            <li class="swiper-slide gallery__item">
 
-              <img src="./image/feedBack/feedback1.jpg" alt="" class="card__img">
-              <div class="card__wrapper">
-                <h2 class="card__name">
+              <img src="./image/gallery/1.jpg" alt="" class="gallery__img">
+
+            </li>
+            <li class="swiper-slide gallery__item">
+
+              <img src="./image/gallery/2.jpg" alt="" class="gallery__img">
+
+            </li>
+            <li class="swiper-slide gallery__item">
+
+              <img src="./image/gallery/3.jpg" alt="" class="gallery__img">
+
+            </li>
+            <li class="swiper-slide gallery__item">
+
+              <img src="./image/gallery/4.jpg" alt="" class="gallery__img">
+
+            </li>
+
+            <li class="swiper-slide gallery__item">
+
+              <img src="./image/gallery/1.jpg" alt="" class="gallery__img">
+
+            </li>
+            <li class="swiper-slide gallery__item">
+
+              <img src="./image/gallery/2.jpg" alt="" class="gallery__img">
+
+            </li>
+            <li class="swiper-slide gallery__item">
+
+              <img src="./image/gallery/3.jpg" alt="" class="gallery__img">
+
+            </li>
+            <li class="swiper-slide gallery__item">
+
+              <img src="./image/gallery/4.jpg" alt="" class="gallery__img">
+
+            </li>
+
+
+          </ul>
+
+          <div class="gallery__swiper__wrapper">
+            <!-- If we need pagination -->
+
+            <div class="gallery__swiper-button-prev swiper-button-prev"></div>
+            <div class="gallery__swiper-pagination swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+
+            <div class="gallery__swiper-button-next swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="feedback">
+        <h3 class="feedback__title">Отзывы экспертов</h3>
+        <div class="feedback__swiper swiper">
+          <!-- Additional required wrapper -->
+
+          <ul class="swiper-wrapper feedback__list list">
+            <!-- Slides -->
+
+            <li class="swiper-slide feedback__item">
+
+              <img src="./image/feedBack/feedback1.jpg" alt="" class="feedback__img">
+              <div class="feedback__wrapper">
+                <h2 class="feedback__name">
                   Иван Иванов
                 </h2>
-                <div class="card__post">Директор компании ООО</div>
-                <p class="card__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
+                <div class="feedback__post">Директор компании ООО</div>
+                <p class="feedback__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
+                  suspendisse
+                  sit in quisque eget. Maecenas urna sollicitudin viverra fermentum donec vulputate. Amet feugiat enim
+                  nisi amet integer a at. Et quam neque cursus ultrices euismod. Ipsum massa dolor leo lorem aenean
+                  pulvinar. Nec viverra vel commodo posuere ut feugiat nisi. Ac sed mi dolor dolor ac ultrices tristique
+                  at tellus. Arcu dictum sem pellentesque mattis posuere eget turpis vel. Ut ut posuere ultricies in
+                  turpis.</p>
+              </div>
+
+            </li>
+            <li class="swiper-slide feedback__item">
+
+              <img src="./image/feedBack/feedback1.jpg" alt="" class="feedback__img">
+              <div class="feedback__wrapper">
+                <h2 class="feedback__name">
+                  Иван Иванов
+                </h2>
+                <div class="feedback__post">Директор компании ООО</div>
+                <p class="feedback__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
                   suspendisse
                   sit in quisque eget. Maecenas urna sollicitudin viverra fermentum donec vulputate. Amet feugiat enim
                   nisi amet integer a at. Et quam neque cursus ultrices euismod. Ipsum massa dolor leo lorem aenean
@@ -73,17 +160,17 @@
 
             </li>
 
-            <li class="swiper-slide card__item">
+            <li class="swiper-slide feedback__item">
 
-              <img src="./image/feedBack/feedback2.jpg" alt="" class="card__img">
-              <div class="card__wrapper">
-                <div class="card__title-wrapper">
-                  <h2 class="card__name">
+              <img src="./image/feedBack/feedback2.jpg" alt="" class="feedback__img">
+              <div class="feedback__wrapper">
+                <div class="feedback__title-wrapper">
+                  <h2 class="feedback__name">
                     Иван Иванов
                   </h2>
-                  <div class="card__post">Директор компании ООО</div>
+                  <div class="feedback__post">Директор компании ООО</div>
                 </div>
-                <p class="card__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
+                <p class="feedback__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
                   suspendisse
                   sit in quisque eget. Maecenas urna sollicitudin viverra fermentum donec vulputate. Amet feugiat enim
                   nisi amet integer a at. Et quam neque cursus ultrices euismod. Ipsum massa dolor leo lorem aenean
@@ -93,15 +180,15 @@
               </div>
 
             </li>
-            <li class="swiper-slide card__item">
+            <li class="swiper-slide feedback__item">
 
-              <img src="./image/feedBack/feedback1.jpg" alt="" class="card__img">
-              <div class="card__wrapper">
-                <h2 class="card__name">
+              <img src="./image/feedBack/feedback1.jpg" alt="" class="feedback__img">
+              <div class="feedback__wrapper">
+                <h2 class="feedback__name">
                   Иван Иванов
                 </h2>
-                <div class="card__post">Директор компании ООО</div>
-                <p class="card__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
+                <div class="feedback__post">Директор компании ООО</div>
+                <p class="feedback__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
                   suspendisse
                   sit in quisque eget. Maecenas urna sollicitudin viverra fermentum donec vulputate. Amet feugiat enim
                   nisi amet integer a at. Et quam neque cursus ultrices euismod. Ipsum massa dolor leo lorem aenean
@@ -111,14 +198,14 @@
               </div>
 
             </li>
-            <li class="swiper-slide card__item">
-              <img src="./image/feedBack/feedback2.jpg" alt="" class="card__img" />
-              <div class="card__wrapper">
-                <h2 class="card__name">
+            <li class="swiper-slide feedback__item">
+              <img src="./image/feedBack/feedback2.jpg" alt="" class="feedback__img" />
+              <div class="feedback__wrapper">
+                <h2 class="feedback__name">
                   Иван Иванов
                 </h2>
-                <div class="card__post">Директор компании ООО</div>
-                <p class="card__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
+                <div class="feedback__post">Директор компании ООО</div>
+                <p class="feedback__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
                   suspendisse
                   sit in quisque eget. Maecenas urna sollicitudin viverra fermentum donec vulputate. Amet feugiat enim
                   nisi amet integer a at. Et quam neque cursus ultrices euismod. Ipsum massa dolor leo lorem aenean
@@ -128,15 +215,15 @@
               </div>
 
             </li>
-            <li class="swiper-slide card__item">
+            <li class="swiper-slide feedback__item">
 
-              <img src="./image/feedBack/feedback1.jpg" alt="" class="card__img">
-              <div class="card__wrapper">
-                <h2 class="card__name">
+              <img src="./image/feedBack/feedback1.jpg" alt="" class="feedback__img">
+              <div class="feedback__wrapper">
+                <h2 class="feedback__name">
                   Иван Иванов
                 </h2>
-                <div class="card__post">Директор компании ООО</div>
-                <p class="card__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
+                <div class="feedback__post">Директор компании ООО</div>
+                <p class="feedback__description">Lorem ipsum dolor sit amet consectetur. Eu cras semper volutpat proin
                   suspendisse
                   sit in quisque eget. Maecenas urna sollicitudin viverra fermentum donec vulputate. Amet feugiat enim
                   nisi amet integer a at. Et quam neque cursus ultrices euismod. Ipsum massa dolor leo lorem aenean
@@ -146,17 +233,18 @@
               </div>
 
             </li>
+          </ul>
 
-        </div>
-        <div class="swiper__wrapper">
-          <!-- If we need pagination -->
+          <div class="feedback__swiper__wrapper ">
+            <!-- If we need pagination -->
 
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination "></div>
+            <div class="feedback__swiper-button-prev swiper-button-prev"></div>
+            <div class="feedback__swiper-pagination swiper-pagination"></div>
 
-          <!-- If we need navigation buttons -->
+            <!-- If we need navigation buttons -->
 
-          <div class="swiper-button-next"></div>
+            <div class="feedback__swiper-button-next swiper-button-next"></div>
+          </div>
         </div>
       </div>
 

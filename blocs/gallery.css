@@ -1,0 +1,22 @@
+.gallery {
+  color: white;
+}
+
+.gallery__title {
+  font-family: RightGroteskText-WideBold;
+  font-size: 36px;
+  margin: 90px 0 52px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery__swiper {
+  height: 480px;
+}
+
+.gallery__img {
+  border-radius: 20px;
+  width: 397px;
+  height: 376px;
+
+}
