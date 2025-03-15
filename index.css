@@ -1,0 +1,82 @@
+@import url(/blocs/header.css);
+@import url(/blocs/logo.css);
+@import url(/blocs/offers.css);
+@import url(/blocs/footer.css);
+@import url(/blocs/swiper.css);
+
+@font-face {
+  font-family: 'ComicSansMS';
+  src: url(/fonts/ComicSansMS.woff);
+}
+
+@font-face {
+  font-family: 'ComicSansMS';
+  src: url(/fonts/ComicSansMS.woff2);
+}
+
+@font-face {
+  font-family: 'FiraSans-Medium';
+  src: url(/fonts/FiraSans-Medium.woff);
+}
+
+@font-face {
+  font-family: 'FiraSans-Medium';
+  src: url(/fonts/FiraSans-Medium.woff2);
+}
+
+@font-face {
+  font-family: 'FiraSans-Regular';
+  src: url(/fonts/FiraSans-Regular.woff);
+}
+
+@font-face {
+  font-family: 'FiraSans-Regular';
+  src: url(/fonts/FiraSans-Regular.woff2);
+}
+
+@font-face {
+  font-family: 'RightGroteskText-WideBold';
+  src: url(/fonts/RightGroteskText-WideBold.woff);
+}
+
+@font-face {
+  font-family: 'RightGroteskText-WideBold';
+  src: url(/fonts/RightGroteskText-WideBold.woff2);
+}
+
+
+
+.root {
+  padding: 0;
+  margin: 0;
+
+}
+
+:root {
+  --swiper-theme-color: #FEA300 !important;
+  --swiper-navigation-top-offset: 0;
+  --swiper-pagination-bullet-inactive-color: #ffffff;
+  --swiper-pagination-bullet-inactive-opacity: .3;
+  --swiper-pagination-bullet-size: 16px;
+
+}
+
+.page {
+  max-width: 1440px;
+  margin: auto;
+  font-family: FiraSans-Regular;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+.h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}

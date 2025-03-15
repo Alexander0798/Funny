@@ -1,0 +1,11 @@
+.logo {
+  font-family: ComicSansMS;
+  font-size: 38px;
+  line-height: 0.6;
+  max-width: 140px;
+  text-align: center;
+}
+
+.logo_small {
+  font-size: 24px;
+}
