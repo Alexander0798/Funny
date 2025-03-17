@@ -10,6 +10,10 @@
 
 }
 
+.swiper-wrapper {
+  padding-left: 90px !important;
+}
+
 .swiper-button-next::after {
   content: '' !important;
   background: url('../image/arrow-right.svg') no-repeat !important;

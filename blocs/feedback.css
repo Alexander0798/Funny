@@ -26,7 +26,11 @@
   display: flex !important;
   align-items: center !important;
   gap: 0 29px;
-  width: 620px;
+
+}
+
+.feedback__wrapper {
+  max-width: 620px;
 }
 
 .feedback__name {
