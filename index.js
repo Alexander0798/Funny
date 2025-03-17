@@ -1,8 +1,9 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 
+
 const gallerySwiper = new Swiper('.gallery__swiper',
   {
-    slidesPerView: 3.2,
+    slidesPerView: 'auto',
     spaceBetween: 20,
     freeMode: true,
     pagination: {
@@ -13,10 +14,11 @@ const gallerySwiper = new Swiper('.gallery__swiper',
       nextEl: '.gallery__swiper-button-next',
       prevEl: '.gallery__swiper-button-prev',
     },
+
   });
 const fedbackSwiper = new Swiper('.feedback__swiper',
   {
-    slidesPerView: 1.4,
+    slidesPerView: 'auto',
     spaceBetween: 80,
     freeMode: true,
     pagination: {

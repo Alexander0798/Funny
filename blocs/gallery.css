@@ -20,3 +20,12 @@
   height: 376px;
 
 }
+
+@media (max-width: 860px) {
+
+  .gallery__img {
+    width: 297px;
+    height: 276px;
+
+  }
+}

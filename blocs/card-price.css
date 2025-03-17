@@ -1,0 +1,35 @@
+.card-price {
+  background: white;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 45px 0 25px;
+}
+
+.card-price__title {
+  font-size: 24px;
+  font-family: FiraSans-Medium;
+  max-width: 140px;
+  margin-bottom: 8px;
+}
+
+.card-price__subtitle {
+  font-family: FiraSans-Regular;
+  font-size: 20px;
+  margin-bottom: 36px;
+}
+
+.card-price__price {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.card-price__price_text-size {
+  font-size: 32px;
+  display: block;
+  font-family: FiraSans-SemiBold;
+}

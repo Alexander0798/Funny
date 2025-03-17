@@ -1,0 +1,42 @@
+.price {
+  background: #FEA300;
+  padding: 100px 0 90px;
+}
+
+.price__cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.price__title {
+  margin-bottom: 52px;
+  color: white;
+}
+
+.price__conditions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  gap: 20px;
+  padding: 37px 0 99px;
+  max-width: 1260px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+@media (max-width: 1280px) {
+  .price__cards {
+    max-width: 940px;
+    gap: 30px;
+    margin: 0 auto 20px;
+  }
+
+  .price__conditions {
+    gap: 30px;
+  }
+}

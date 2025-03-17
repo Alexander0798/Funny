@@ -10,8 +10,12 @@
 
 }
 
-.swiper-wrapper {
-  padding-left: 90px !important;
+.swiper-slide {
+  width: auto !important;
+}
+
+.swiper-slide:first-child {
+  margin-left: 90px !important;
 }
 
 .swiper-button-next::after {
@@ -43,4 +47,10 @@
   justify-content: center;
   gap: 0 26px;
   margin-top: -50px;
+}
+
+@media (max-width: 760px) {
+  .swiper-slide:first-child {
+    margin-left: 30px !important;
+  }
 }
