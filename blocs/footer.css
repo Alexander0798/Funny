@@ -57,8 +57,17 @@
   line-height: 1;
 }
 
+.footer__nav-item_decor {
+  font-size: 10px;
+  color: #2B9CCF;
+  padding-left: 8px;
+  display: inline-block;
+  font-weight: bold;
+}
+
 @media (max-width: 741px) {
   .footer {
     padding-top: 20px;
+
   }
 }

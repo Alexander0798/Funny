@@ -8,6 +8,18 @@
 @import url(/blocs/price.css);
 @import url(/blocs/card-price.css);
 @import url(/blocs/condition.css);
+@import url(/blocs/popup.css);
+@import url(/blocs/form.css);
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(/fonts/Inter-Regular.woff);
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(/fonts/Inter-Regular.woff2);
+}
 
 @font-face {
   font-family: 'ComicSansMS';
@@ -94,6 +106,23 @@
   margin: 0;
   list-style: none;
 
+}
+
+.button {
+  background-color: #FEA300;
+  color: #ffffffff;
+  min-height: 77px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: FiraSans-Medium;
+  border-radius: 20px;
+  border: none;
+}
+
+.link {
+  cursor: pointer;
 }
 
 p,

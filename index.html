@@ -36,7 +36,7 @@
           <div class="offers__wrapper-title">
             <h1 class="offers__title">Эгейское море,
               маршрут древних эллинов <span class="offers__title_small">30 марта - 5 апреля</span></h1>
-            <button type="button" class="offers__button">Зарегистрироваться</button>
+            <button type="button" class="offers__button button">Зарегистрироваться</button>
           </div>
 
         </div>
@@ -122,7 +122,7 @@
       </div>
 
       <div class="gallery">
-        <h2 class="gallery__title title">Фотогалерея клуба</h2>
+        <h3 class="gallery__title title">Фотогалерея клуба</h3>
         <div class="gallery__swiper swiper">
           <!-- Additional required wrapper -->
 
@@ -189,7 +189,7 @@
 
 
       <div class="feedback">
-        <h3 class="feedback__title title">Отзывы экспертов</h3>
+        <h4 class="feedback__title title">Отзывы экспертов</h4>
         <div class="feedback__swiper swiper">
           <!-- Additional required wrapper -->
 
@@ -354,13 +354,42 @@
       </div>
       <nav class="footer__nav">
         <ul class="footer__nav-list list">
-          <li class="footer__nav-item">Пользовательское соглашение</li>
-          <li class="footer__nav-item">Политика обработки персональных данных</li>
-          <li class="footer__nav-item">Согласие на обработку</li>
-          <li class="footer__nav-item">Техническая поддержка сайта <span class="footer__nav-item_decor">://</span></li>
+          <li class="footer__nav-item"><a class="link">Пользовательское соглашение</a></li>
+          <li class="footer__nav-item"><a class="link">Политика обработки персональных данных</a></li>
+          <li class="footer__nav-item"><a class="link">Согласие на обработку</a></li>
+          <li class="footer__nav-item"><a class="link">Техническая поддержка сайта <span
+                class="footer__nav-item_decor">://</span></a></li>
         </ul>
       </nav>
     </footer>
+    <div class="popup">
+      <div class="popup__wrapper">
+        <h5 class="popup__title">Заявка на участие</h5>
+        <form action="" class="popup__form form" novalidate>
+          <div class="form__wrapper">
+            <input class="form__input" type="text" name="name" placeholder="Фамилия Имя">
+            <input class="form__input" type="text" name="phone" placeholder="Телефон">
+            <input class="form__input" type="text" name="email" placeholder="E-mail">
+            <input class="form__input" type="text" name="company" placeholder="Компания">
+            <input class="form__input" type="text" name="quantity" placeholder="Количество участников ">
+          </div>
+          <div class="form__wrapper">
+            <div class="form__checkbox-wrapper">
+              <label for="form-checkbox" class="form__label">
+                <input type="checkbox" name="person-data" id="form-checkbox" class="form__checkbox">
+              </label>
+              <span class="form__text">Нажимая кнопку Участвовать,
+                подтверждаю согласие на обработку моих персональных данных</span>
+            </div>
+
+
+            <button class="form__button button" name="submit" type="submit">Оставить заявку</button>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
   </div>
   <script type="module" src="./index.js"></script>
 

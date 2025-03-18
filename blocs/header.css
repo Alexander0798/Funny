@@ -23,8 +23,28 @@
 
 
 @media (max-width: 768px) {
+  .header {
+    position: relative;
+  }
+
   .header__nav {
     display: none;
+    position: absolute;
+    bottom: -20px;
+    right: 100px;
+    background: black;
+    z-index: 12;
+    border-radius: 5px;
+    padding: 10px;
+
+  }
+
+  .header__list {
+    flex-direction: column;
+  }
+
+  .header__nav_active {
+    display: block;
   }
 
   .header__wrapper-menu {

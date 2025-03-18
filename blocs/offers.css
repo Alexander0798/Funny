@@ -47,17 +47,7 @@
 }
 
 .offers__button {
-  background-color: #FEA300;
-  color: #ffffffff;
-  min-height: 77px;
   max-width: 393px;
-  font-size: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: FiraSans-Medium;
-  border-radius: 20px;
-  border: none;
 }
 
 .offers__list-wrapper {
